@@ -1,0 +1,13 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    sort_constructors_first: true
+
+analyzer:
+  strong-mode:
+    implicit-dynamic: false
+    implicit-casts: true
+  errors:
+    avoid_dynamic_calls: ignore

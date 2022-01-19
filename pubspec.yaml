@@ -1,0 +1,16 @@
+name: ens_resolver
+description: A super simple ENS/Address Resolver Script
+version: 1.0.0
+
+environment:
+  sdk: '>=2.15.1 <3.0.0'
+
+dependencies:
+  args: ^2.3.0
+  ens_dart: ^1.0.0
+  http: ^0.13.4
+  web3dart: ^2.3.3
+  web_socket_channel: ^2.1.0
+
+dev_dependencies:
+  lint: ^1.8.1
